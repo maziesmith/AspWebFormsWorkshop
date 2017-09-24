@@ -1,0 +1,224 @@
+/* the following style is used to set the height of pages so they span the entire height of the browser window */
+html,
+body
+{
+    height: 100%;
+}
+
+/* the following styles is setting a background image and color to use for all pages of the site */
+
+body
+{
+    background-color: #FFF3E2;
+    background-image: url(../Images/bodybg.gif);
+    background-repeat: repeat-x;
+    margin: 0;
+    padding: 0;
+}
+
+/* ELEMENTS */
+
+/* the following styles are used to format the appearance of all p and h1 tags on the page */
+
+p
+{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+}
+
+h1
+{
+    color: #4D7203;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* the following is used to control the padding and border 
+around images that have a class or CssClass attribute set to img */
+
+.img
+{
+    border: 1px solid #CCC;
+    float: right;
+    margin: 2px;
+    padding: 5px;
+}
+
+/* PAGE BODY */
+
+/* the following is used to control the appearance of the tag with an ID of container */
+
+#container
+{
+    background-color: #FFF;
+    background-image: url(../Images/bottom.jpg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    border-left: 10px solid #FFF;
+    border-right: 10px solid #FFF;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    position: relative;
+    width: 800px;
+}
+
+/* the following is used to set the height of all tags on the page within the html tag and within the tag with ID of container */
+
+* html #container
+{
+    height: 100%;
+}
+
+/* the following is used to control the appearance of the tag with an ID of header */
+
+header
+{
+    text-align: left;
+    width: 800px;
+}
+
+/* the following is used to control the appearance of the tag with an ID of nav */
+
+nav
+{
+    background-image: url(../Images/nav.gif);
+    background-repeat: no-repeat;
+    color: #D9EDB0;
+    float: left;
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    width: 800px;
+}
+
+/* the following is used to control the appearance of any a tag within the tag with an ID of nav */
+
+nav a
+{
+    color: #FFF;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+/* the following is used to control the appearance of any a tag that the user hovers over within the tag with an ID of footer */
+
+nav a:hover
+{
+    color: #DED3D8;
+    text-decoration: none;
+}
+
+/* the following is used to control the appearance of the tag with an ID of main */
+
+#main
+{
+    float: left;
+    padding-top: 10px;
+    width: 800px;
+}
+
+/* FOOTER */
+
+/* the following is used to control the appearance of the tag with an ID of footer */
+
+footer
+{
+    background-image: url(../Images/footer.gif);
+    background-repeat: no-repeat;
+    bottom: 0;
+    clear: both;
+    height: 60px;
+    width: 800px;
+}
+
+/* the following is used to control the appearance of any p tag within the tag with an ID of footer */
+
+footer p
+{
+    color: #FFF;
+    font-size: 11px;
+    text-align: center;
+}
+
+/* the following is used to control the appearance of any a tag within the tag with an ID of footer */
+
+footer a
+{
+    color: #FFF;
+    font-size: 11px;
+}
+
+/* LINKS */
+
+/* the following is used to control the appearance of all a tags */
+
+a
+{
+    color: #4D7203;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* the following is used to define the appearance of any hyperlinks 
+that the user hovers over */
+
+a:hover
+{
+    color: #4D7203;
+    text-decoration: none;
+}
+
+/* FORMS */
+
+/* the following defines a background image tp display for any tag that 
+has a class or CssClass attribute set to contactform */
+
+.contactform
+{
+    background-image: url(../Images/contact.jpg);
+    background-position: top right;
+    background-repeat: no-repeat;
+}
+
+/* the following is used to control the appearance of all input, select and textarea tags */
+
+input,
+select,
+textarea
+{
+    background: #F5F3F3;
+    border: 1px solid #666;
+    color: #000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+/* the following is used to control the appearance of all label tags */
+
+label
+{
+    clear: both;
+    float: left;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+
+/* the following is used to control the padding  
+around any tags that have a class or CssClass attribute set to btn */
+
+.btn
+{
+    padding: 2px;
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" standalone="yes"?>
+<Northwind>
+  <xs:schema id="Northwind" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Northwind" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="SalesByCategory">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+                <xs:element name="TotalPurchase" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <SalesByCategory>
+    <ProductName>Camembert Pierrot</ProductName>
+    <TotalPurchase>9025.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Flotemysost</ProductName>
+    <TotalPurchase>4248.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Geitost</ProductName>
+    <TotalPurchase>386.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Gorgonzola Telino</ProductName>
+    <TotalPurchase>4155.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Gudbrandsdalsost</ProductName>
+    <TotalPurchase>4239.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Mascarpone Fabioli</ProductName>
+    <TotalPurchase>1167.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Mozzarella di Giovanni</ProductName>
+    <TotalPurchase>6772.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Queso Cabrales</ProductName>
+    <TotalPurchase>1606.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Queso Manchego La Pastora</ProductName>
+    <TotalPurchase>347.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Raclette Courdavault</ProductName>
+    <TotalPurchase>9035.00</TotalPurchase>
+  </SalesByCategory>
+</Northwind>

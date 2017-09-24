@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="yes"?>
+<mySalesData>
+  <xs:schema id="mySalesData" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="mySalesData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ProductInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+                <xs:element name="TotalPurchase" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ProductInfo>
+    <ProductName>Alice Mutton</ProductName>
+    <TotalPurchase>17605.00</TotalPurchase>
+  </ProductInfo>
+  <ProductInfo>
+    <ProductName>Mishi Kobe Niku</ProductName>
+    <TotalPurchase>6936.00</TotalPurchase>
+  </ProductInfo>
+  <ProductInfo>
+    <ProductName>Pâté chinois</ProductName>
+    <TotalPurchase>7833.00</TotalPurchase>
+  </ProductInfo>
+  <ProductInfo>
+    <ProductName>Perth Pasties</ProductName>
+    <TotalPurchase>10662.00</TotalPurchase>
+  </ProductInfo>
+  <ProductInfo>
+    <ProductName>Thüringer Rostbratwurst</ProductName>
+    <TotalPurchase>34756.00</TotalPurchase>
+  </ProductInfo>
+  <ProductInfo>
+    <ProductName>Tourtière</ProductName>
+    <TotalPurchase>3184.00</TotalPurchase>
+  </ProductInfo>
+</mySalesData>

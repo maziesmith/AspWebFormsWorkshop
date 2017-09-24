@@ -1,0 +1,36 @@
+﻿body
+{
+    font-family: Arial;
+    font-size: 12px;
+    height: 100%;
+    width: 800px;
+}
+
+#content
+{
+    height: 85%;
+    padding: 15px;
+    width: 800px;
+}
+
+#footer
+{
+    background-color: #000080;
+    color: #FFFFFF;
+    font-family: 'Arial Rounded MT Bold';
+    margin: 5px;
+    text-align: center;
+    width: 800px;
+}
+
+h3
+{
+    font-size: 14px;
+}
+
+.btn
+{
+    background-color: Navy;
+    color: White;
+    width: 95px;
+}

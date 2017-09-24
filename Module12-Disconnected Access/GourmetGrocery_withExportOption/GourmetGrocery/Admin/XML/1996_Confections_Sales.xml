@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<Northwind>
+  <xs:schema id="Northwind" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Northwind" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="SalesByCategory">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+                <xs:element name="TotalPurchase" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <SalesByCategory>
+    <ProductName>Gumbär Gummibärchen</ProductName>
+    <TotalPurchase>3362.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Maxilaku</ProductName>
+    <TotalPurchase>1920.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>NuNuCa Nuß-Nougat-Creme</ProductName>
+    <TotalPurchase>776.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Pavlova</ProductName>
+    <TotalPurchase>3128.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Schoggi Schokolade</ProductName>
+    <TotalPurchase>1272.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Scottish Longbreads</ProductName>
+    <TotalPurchase>1294.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Sir Rodney's Marmalade</ProductName>
+    <TotalPurchase>6545.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Sir Rodney's Scones</ProductName>
+    <TotalPurchase>416.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Tarte au sucre</ProductName>
+    <TotalPurchase>9604.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Teatime Chocolate Biscuits</ProductName>
+    <TotalPurchase>902.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Valkoinen suklaa</ProductName>
+    <TotalPurchase>371.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Zaanse koeken</ProductName>
+    <TotalPurchase>97.00</TotalPurchase>
+  </SalesByCategory>
+</Northwind>

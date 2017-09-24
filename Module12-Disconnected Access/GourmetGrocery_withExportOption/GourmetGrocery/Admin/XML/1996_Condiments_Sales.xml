@@ -1,0 +1,63 @@
+<?xml version="1.0" standalone="yes"?>
+<Northwind>
+  <xs:schema id="Northwind" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Northwind" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="SalesByCategory">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+                <xs:element name="TotalPurchase" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <SalesByCategory>
+    <ProductName>Aniseed Syrup</ProductName>
+    <TotalPurchase>240.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Chef Anton's Cajun Seasoning</ProductName>
+    <TotalPurchase>1852.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Chef Anton's Gumbo Mix</ProductName>
+    <TotalPurchase>1931.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Genen Shouyu</ProductName>
+    <TotalPurchase>310.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Grandma's Boysenberry Spread</ProductName>
+    <TotalPurchase>720.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Gula Malacca</ProductName>
+    <TotalPurchase>2042.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Louisiana Fiery Hot Pepper Sauce</ProductName>
+    <TotalPurchase>2474.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Louisiana Hot Spiced Okra</ProductName>
+    <TotalPurchase>408.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Northwoods Cranberry Sauce</ProductName>
+    <TotalPurchase>3920.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Original Frankfurter grüne Soße</ProductName>
+    <TotalPurchase>655.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Vegie-spread</ProductName>
+    <TotalPurchase>3349.00</TotalPurchase>
+  </SalesByCategory>
+</Northwind>

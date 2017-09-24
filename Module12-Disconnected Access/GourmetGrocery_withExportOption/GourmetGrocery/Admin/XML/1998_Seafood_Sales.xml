@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<Northwind>
+  <xs:schema id="Northwind" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Northwind" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="SalesByCategory">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+                <xs:element name="TotalPurchase" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <SalesByCategory>
+    <ProductName>Boston Crab Meat</ProductName>
+    <TotalPurchase>5318.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Carnarvon Tigers</ProductName>
+    <TotalPurchase>8497.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Escargots de Bourgogne</ProductName>
+    <TotalPurchase>2427.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Gravad lax</ProductName>
+    <TotalPurchase>1456.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Ikura</ProductName>
+    <TotalPurchase>9002.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Inlagd Sill</ProductName>
+    <TotalPurchase>3938.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Jack's New England Clam Chowder</ProductName>
+    <TotalPurchase>2916.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Konbu</ProductName>
+    <TotalPurchase>3725.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Nord-Ost Matjeshering</ProductName>
+    <TotalPurchase>4744.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Röd Kaviar</ProductName>
+    <TotalPurchase>180.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Rogede sild</ProductName>
+    <TotalPurchase>891.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Spegesild</ProductName>
+    <TotalPurchase>1817.00</TotalPurchase>
+  </SalesByCategory>
+</Northwind>

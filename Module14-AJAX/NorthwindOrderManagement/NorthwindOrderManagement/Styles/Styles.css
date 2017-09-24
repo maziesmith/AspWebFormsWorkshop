@@ -1,0 +1,26 @@
+﻿.updateProgressSpinner
+{
+    background-color: #fff;
+    border: solid 1px #000;
+    height: 75px;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -50px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    vertical-align: middle;
+    width: 200px;
+}
+
+.updateProgressOuter
+{
+    background-color: #808080;
+    bottom: 10px;
+    filter: alpha(opacity=60);
+    left: 10px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

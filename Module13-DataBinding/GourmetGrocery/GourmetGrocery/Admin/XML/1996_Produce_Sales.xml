@@ -1,0 +1,39 @@
+<?xml version="1.0" standalone="yes"?>
+<mySalesData>
+  <xs:schema id="mySalesData" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="mySalesData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="ProductInfo">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+                <xs:element name="TotalPurchase" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <ProductInfo>
+    <ProductName>Longlife Tofu</ProductName>
+    <TotalPurchase>1032.00</TotalPurchase>
+  </ProductInfo>
+  <ProductInfo>
+    <ProductName>Manjimup Dried Apples</ProductName>
+    <TotalPurchase>6159.00</TotalPurchase>
+  </ProductInfo>
+  <ProductInfo>
+    <ProductName>Rössle Sauerkraut</ProductName>
+    <TotalPurchase>4757.00</TotalPurchase>
+  </ProductInfo>
+  <ProductInfo>
+    <ProductName>Tofu</ProductName>
+    <TotalPurchase>1386.00</TotalPurchase>
+  </ProductInfo>
+  <ProductInfo>
+    <ProductName>Uncle Bob's Organic Dried Pears</ProductName>
+    <TotalPurchase>552.00</TotalPurchase>
+  </ProductInfo>
+</mySalesData>

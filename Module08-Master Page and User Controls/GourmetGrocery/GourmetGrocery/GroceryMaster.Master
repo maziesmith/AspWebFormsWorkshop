@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="GroceryMaster.Master.cs" Inherits="GourmetGrocery.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Gourmet Home</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Styles/Styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<form id="form1" runat="server">
+    <div id="container">
+        <header>
+            <asp:Image ID="imgHeader" AlternateText="The Gourmet Grocery" Width="800" Height="170" ImageUrl="~/images/header.jpg" runat="server"/>
+        </header>
+        <nav>
+            <asp:HyperLink ID="lnkHome" NavigateUrl="~/Default.aspx" Text="Home" runat="server"></asp:HyperLink>
+            &nbsp;&#8226;&nbsp;
+            <asp:HyperLink ID="lnkProducts" NavigateUrl="~/Products.aspx" Text="Our Products" runat="server"></asp:HyperLink>
+            &nbsp;&#8226;&nbsp;
+            <asp:HyperLink ID="lnkAbout" NavigateUrl="~/AboutUs.aspx" Text="About Us" runat="server"></asp:HyperLink>
+            &nbsp;&#8226;&nbsp;
+            <asp:HyperLink ID="lnkContact" NavigateUrl="~/ContactUs.aspx" Text="Contact Us" runat="server"></asp:HyperLink>
+        </nav>
+        <div id="main">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <footer>
+            <p>
+                <asp:HyperLink ID="footlnkHome" runat="server" NavigateUrl="~/Default.aspx">home</asp:HyperLink>
+                |
+                <asp:HyperLink ID="footlnkAbout" runat="server" NavigateUrl="~/AboutUs.aspx">about us</asp:HyperLink>
+                |
+                <asp:HyperLink ID="footlnkContact" runat="server" NavigateUrl="~/ContactUs.aspx">contact us</asp:HyperLink>
+            </p>
+            <p>
+                <script>
+                    var currDate = new Date();
+                    var year = currDate.getFullYear();
+                    document.write("Copyright &copy; " + year + " The Gourmet Grocery");
+                </script>
+            </p>
+        </footer>
+    </div>
+</form>
+</body>
+</html>

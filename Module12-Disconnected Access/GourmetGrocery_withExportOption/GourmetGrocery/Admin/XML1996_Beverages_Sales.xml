@@ -1,0 +1,67 @@
+<?xml version="1.0" standalone="yes"?>
+<Northwind>
+  <xs:schema id="Northwind" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="Northwind" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="SalesByCategory">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ProductName" type="xs:string" minOccurs="0" />
+                <xs:element name="TotalPurchase" type="xs:decimal" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <SalesByCategory>
+    <ProductName>Chai</ProductName>
+    <TotalPurchase>1606.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Chang</ProductName>
+    <TotalPurchase>3018.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Chartreuse verte</ProductName>
+    <TotalPurchase>3558.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Côte de Blaye</ProductName>
+    <TotalPurchase>24874.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Guaraná Fantástica</ProductName>
+    <TotalPurchase>557.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Ipoh Coffee</ProductName>
+    <TotalPurchase>4931.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Lakkalikööri</ProductName>
+    <TotalPurchase>2046.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Laughing Lumberjack Lager</ProductName>
+    <TotalPurchase>42.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Outback Lager</ProductName>
+    <TotalPurchase>1809.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Rhönbräu Klosterbier</ProductName>
+    <TotalPurchase>738.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Sasquatch Ale</ProductName>
+    <TotalPurchase>1002.00</TotalPurchase>
+  </SalesByCategory>
+  <SalesByCategory>
+    <ProductName>Steeleye Stout</ProductName>
+    <TotalPurchase>3737.00</TotalPurchase>
+  </SalesByCategory>
+</Northwind>

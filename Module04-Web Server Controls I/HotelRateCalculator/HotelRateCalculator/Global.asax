@@ -1,0 +1,1 @@
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="HotelRateCalculator.Global" Language="C#" %>

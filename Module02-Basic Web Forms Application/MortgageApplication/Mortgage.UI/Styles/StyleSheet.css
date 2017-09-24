@@ -1,0 +1,15 @@
+﻿body
+{
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.tbl
+{
+    background-color: aliceblue;
+    border: solid 1px red;
+}
+
+input[type=text]
+{
+    text-align: right;
+}
